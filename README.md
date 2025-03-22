@@ -1,10 +1,15 @@
-# -Mini-project-image-processing-
-โปรเจคนี้เป็นการสร้าง ภาพหมอก (Haze) จากภาพถ่ายปกติ โดยใช้เทคนิค Monocular Depth Estimation 
-จาก Model ที่ถูกเทรนมาก่อนของ Monodepth2 [https://github.com/nianticlabs/monodepth2](https://github.com/nianticlabs/monodepth2.git) เเละ 
-ใช้ Haze Synthesis ของ tranleanh [https://github.com/tranleanh/haze-synthesis.git](https://github.com/tranleanh/haze-synthesis.git) เป็นโครงสร้างหลัก 
+# Mini-Project: Haze Synthesis with Monodepth2
+โปรเจคนี้เป็นการสร้างภาพหมอก (Haze) จากภาพถ่ายปกติ โดยใช้เทคนิค **Monocular Depth Estimation**  
+- ใช้ **Model ที่ถูกเทรนมาก่อนของ Monodepth2** → [https://github.com/nianticlabs/monodepth2](https://github.com/nianticlabs/monodepth2)  
+- ใช้ **Haze Synthesis ของ tranleanh** → [https://github.com/tranleanh/haze-synthesis.git](https://github.com/tranleanh/haze-synthesis.git) เป็นโครงสร้างหลัก  
 
-# วัตถุประสงค์ของโปรเจค
-1.สร้างภาพหมอกจากภาพปกติ
-2.ปรับระดับความหนาของหมอกได้ตามค่า Beta 1(หมอกบาง), 1.5(หมอกปานกลาง), 2(หมอกหนา)
-3.ใช้ Model Monodepth2 เพื่อสร้างเอฟเฟกต์หมอกในภาพ
+---
 
+## วัตถุประสงค์ของโปรเจค
+สร้างภาพหมอกจากภาพถ่ายปกติ  
+ปรับระดับความหนาของหมอกได้ตามค่า **Beta**:
+- **Beta = 1.0** → หมอกบาง  
+- **Beta = 1.5** → หมอกปานกลาง  
+- **Beta = 2.0** → หมอกหนา  
+
+ใช้โมเดล **Monodepth2** เพื่อสร้างเอฟเฟกต์หมอกในภาพ  
