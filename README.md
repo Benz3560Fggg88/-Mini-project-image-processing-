@@ -16,11 +16,13 @@
 
 ---
 
-### Example
+
+### Example:
 ### Example:
 | Beta | ตัวอย่างภาพ | รายละเอียด |
 |-------|-------------|------------|
-| **Beta = 1.0** | ![Beta 1.0](./outputs/1_beta1.jpg) | หมอกบาง |
-| **Beta = 1.5** | ![Beta 1.5](./outputs/1_beta1.5.jpg) | หมอกปานกลาง |
-| **Beta = 2.0** | ![Beta 2.0](./outputs/1_beta2.jpg) | หมอกหนา |
+| **ต้นฉบับ** | ![Original](https://raw.githubusercontent.com/USERNAME/REPO/main/1/1%20ไม่มีหมอก.jpg) | ไม่มีหมอก |
+| **Beta = 1.0** | ![Beta 1.0](https://raw.githubusercontent.com/USERNAME/REPO/main/1/1_synt1.jpg) | หมอกบาง |
+| **Beta = 1.5** | ![Beta 1.5](https://raw.githubusercontent.com/USERNAME/REPO/main/1/1_synt1.5.jpg) | หมอกปานกลาง |
+| **Beta = 2.0** | ![Beta 2.0](https://raw.githubusercontent.com/USERNAME/REPO/main/1/1_synt2.jpg) | หมอกหนา |
 
